@@ -11,6 +11,7 @@ class PostsNew extends Component {
   };
 
   onSubmit(props) {
+
     this.props.createPost(props)
     .then(() => {
       this.context.router.push('/');
@@ -67,7 +68,7 @@ function validate(values) {
     errors.title = 'Enter a username';
   }
   if (!values.categories) {
-    errors.categories = 'Enter catergories';
+    errors.categories = 'Enter category';
   }
   if (!values.content) {
     errors.content = 'Enter some content';

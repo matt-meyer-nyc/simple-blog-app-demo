@@ -16,7 +16,7 @@ export function fetchPosts() {
 }
 
 export function createPost(props) {
-  const request = axios.post(`${ROOT_URL}/posts/${API_KEY}`, props);
+  const request = axios.post(`${ROOT_URL}/posts${API_KEY}`, props);
   console.log("request", request);
 
   return {
