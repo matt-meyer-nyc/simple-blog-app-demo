@@ -1,3 +1,7 @@
+#Acknowledgments
+
+This project is a product of Stephen Grider's Udemy Course 'Modern React With Redux'
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
